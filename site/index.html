@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta charset="utf-8">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+<meta name="description" content="Your description">
+<meta name="keywords" content="Your keywords">
+<meta name="author" content="Your name">
+<meta name = "format-detection" content = "telephone=no" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!--CSS-->
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/camera.css">
+<!--JS-->
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/camera.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script>
+    $(document).ready(function(){
+        jQuery('.camera_wrap').camera();
+        function goToByScroll(id){$('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');}
+    });
+</script>
+<!--[if (gt IE 9)|!(IE)]><!-->
+      <script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
+<!--<![endif]--> 
+<!--[if lt IE 8]>
+		<div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div>  
+<![endif]-->
+<!--[if lt IE 9]>
+  <link rel="stylesheet" href="css/ie.css">
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="global">
+<!--header-->
+<header>
+    <div class="container">
+         <div class="navbar navbar_ clearfix">
+            <div class="navbar-inner">      
+                  <div class="clearfix">
+                        <h1 class="brand"><a href="index.html"><img src="img/LOG.PNG.png" alt=""></a></h1>
+                        <form id="search" class="search" action="search.php" method="GET" accept-charset="utf-8">
+                            <input type="text" onfocus="if(this.value =='' ) this.value=''" onblur="if(this.value=='') this.value=''" value="" name="s">
+                            <a href="#" onClick="document.getElementById('search').submit()"><img src="img/magnify.png" alt=""></a>
+                        </form>
+                        <div class="nav-collapse nav-collapse_ collapse">
+                        	<ul class="nav sf-menu clearfix">
+                        	  <li class="active"><a href="index.html">Home</a></li> 
+                              <li class="sub-menu"><a href="index-1.html">about<span></span></a>
+                                <ul class="submenu">
+                                    <li><a href="#">history</a></li>
+                                    <li><a href="#">news<span></span></a>
+                                        <ul class="submenu-1">
+                                            <li><a href="#">latest</a></li>
+                                            <li><a href="#">archive</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">testimonials</a></li>
+                                </ul>
+                              </li> 
+                              <li><a href="index-2.html">projects</a></li> 
+                              <li><a href="index-3.html">blog</a></li> 
+                              <li><a href="index-4.html">contacts</a></li>                       
+                            </ul>
+                        </div>
+                                                                                                                                         
+                  </div>
+             </div>  
+         </div>
+    </div>
+</header>
+<section class="gall">
+    <div class="pattern"></div>
+    <div class="container">
+        <div class="row">
+            <article class="span12 slider">
+                <div class="camera_wrap">
+                 <div data-src="img/SLID1.jpeg"><div class="camera-caption"><p class="title1">We are</p><p class="title2">the leaders in the construction<br>industry</p><p class="title3">Aipisicing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Utder enim ad minim veniam, quis nostrud<br>exercitation des ullamco laboris massanisi ut aliquip.</p><a href="#" class="btn btn-info margRight">Click Here!</a><a href="#" class="btn btn-info">join us!</a></div></div>
+                 <div data-src="img/SLID6.jpg"><div class="camera-caption"><p class="title1">Striving</p><p class="title2">to excellence in service<br>we provide</p><p class="title3">Aipisicing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Utder enim ad minim veniam, quis nostrud<br>exercitation des ullamco laboris massanisi ut aliquip.</p><a href="#" class="btn btn-info margRight">Click Here!</a><a href="#" class="btn btn-info">join us!</a></div></div>
+                 <div data-src="img/SLID7.jpg"><div class="camera-caption"><p class="title1">We are</p><p class="title2">ready to satisfy your project<br>requirements</p><p class="title3">Aipisicing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Utder enim ad minim veniam, quis nostrud<br>exercitation des ullamco laboris massanisi ut aliquip.</p><a href="#" class="btn btn-info margRight">Click Here!</a><a href="#" class="btn btn-info">join us!</a></div></div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+    <!--content-->
+    <div class="container">
+        <div class="row">
+            <section class="span12 ban-box">
+                <div class="row">
+                     <article class="span12">
+                        <h2>newest projects</h2>
+                        <div class="row">
+                            <article class="span3">
+                                <h3>Sed ut perspiciatis unde sit voluptate maccus anum que laudantium.</h3>
+                                <p class="margBot font1">Lorem ipsum est. Ut enim ad minim veniam, quis nostrud exercitation ullamcode laboris nisi dolore massa. Et aliquipx eato commodo...</p>
+                                <a href="#" class="btn btn2 btn-info ">view all</a>
+                            </article>
+                            <article class="span3 box-pad1">
+                                <div class="thumb-pad1">
+                                    <div class="thumbnail">
+                                        <div class="badge"><p>Oct</p><p>27</p></div>
+                                        <figure class="img-polaroid"><img alt="" src="img/SLID2.png"></figure>
+                                        <div class="caption">
+                                            <h4>Lorem ipsum est.</h4>
+                                            <p>Ut enim ad minim veniam, quis nostr</p>
+                                            <a href="#" class="btn btn-primary">more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="span3 box-pad1">
+                                <div class="thumb-pad1">
+                                    <div class="thumbnail">
+                                        <div class="badge"><p>Oct</p><p>20</p></div>
+                                        <figure class="img-polaroid"><img alt="" src="img/SLID3.jpg"></figure>
+                                        <div class="caption">
+                                            <h4>Lorem ipsum est.</h4>
+                                            <p>Ut enim ad minim veniam, quis nostr</p>
+                                            <a href="#" class="btn btn-primary">more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="span3 box-pad1">
+                                <div class="thumb-pad1">
+                                    <div class="thumbnail">
+                                        <div class="badge"><p>Oct</p><p>17</p></div>
+                                        <figure class="img-polaroid"><img alt="" src="img/SLID4.jpg"></figure>
+                                        <div class="caption">
+                                            <h4>Lorem ipsum est.</h4>
+                                            <p>Ut enim ad minim veniam, quis nostr</p>
+                                            <a href="#" class="btn btn-primary">more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                     </article>
+                 </div>
+             </section>
+             <section class="span12">
+                <h2 class="borderNone">capabilities</h2>
+                <div class="row">
+                    <div class="span12 capabilities-box">
+                        <div class="row">
+                            <article class="span3">
+                                <h5>Project Management</h5>
+                                <p>dipisicing elit sed do eiusmod</p>
+                                <hr>
+                                <a href="#" class="btn btn-link"><span>read more</span><img alt="" src="img/more_arrow.png"></a>
+                            </article>
+                            <article class="span3">
+                                <h5>Project Development</h5>
+                                <p>dipisicing elit sed do eiusmod</p>
+                                <hr>
+                                <a href="#" class="btn btn-link"><span>read more</span><img alt="" src="img/more_arrow.png"></a>
+                            </article>
+                            <article class="span3">
+                                <h5>Project Planning</h5>
+                                <p>dipisicing elit sed do eiusmod</p>
+                                <hr>
+                                <a href="#" class="btn btn-link"><span>read more</span><img alt="" src="img/more_arrow.png"></a>
+                            </article>
+                            <article class="span3">
+                                <h5>Engineering & Construction</h5>
+                                <p>dipisicing elit sed do eiusmod</p>
+                                <hr>
+                                <a href="#" class="btn btn-link"><span>read more</span><img alt="" src="img/more_arrow.png"></a>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+             </section>
+             <section class="span12 clientLogo">
+                <ul class="follow-client">
+                    <li><a href="#"><img alt="" src="img/wbho image.jpg"></a></li>
+                    <li><a href="#"><img alt="" src="img/page1_pic5.png"></a></li>
+                    <li><a href="#"><img alt="" src="img/page1_pic6.png"></a></li>
+                    <li><a href="#"><img alt="" src="img/page1_pic7.png"></a></li>
+                    <li><a href="#"><img alt="" src="img/page1_pic8.png"></a></li>
+                    <li><a href="#"><img alt="" src="img/page1_pic9.png"></a></li>
+                </ul>
+             </section>
+         </div>
+     </div>
+     <section class="info-box">
+            <div class="container">
+                <div class="row">
+                    <article class="span4 dotted padBot1">
+                        <div class="row">
+                            <div class="span3 news-block">
+                                <h3>News </h3>
+                                <p><a href="#">Amet, consectetur adipisicing elit.</a><br>Sed doloredes eiusmod tempor enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in. voluptate velit esse... cillum dolore eu fugiat nulla pariatur. Excepteur sint occaec.</p>
+                                <p><a href="#">Amet, consectetur adipisicing elit.</a><br>Sed doloredes eiusmod tempor enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in. voluptate velit esse... cillum dolore eu fugiat nulla pariatur. Excepteur sint occaec.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="span4 dotted">
+                        <div class="row">
+                            <div class="span3">
+                                <h3>why choose us</h3>
+                                <ul class="_accodList">
+                                    <li>
+                                        <span class="_plus"></span>
+                                        <h6>EXPERTISE AND  EXPERIANCE</h6>
+                                        <p>with over 20years experience in construction industry, we have successfully completed 120 project demonstrating our expertise and knowledge in the field</p>
+                                    </li>
+                                    <li>
+                                        <span class="_plus"></span>
+                                        <h6>quality assurance</h6>
+                                        <p>we prioritize top-notch in every aspect of our work, ensuring that each project is executed with precision , duravility and adherence to highest industry standard.</p>
+                                    </li>
+                                    <li>
+                                        <span class="_plus"></span>
+                                        <h6>client-centric approach</h6>
+                                        <p>our focus on client satisfaction means we tailor our service to meet your spacific needs ensuring open comunication, transparency, and a personalized experience throughout the contruction process.</p>
+                                    </li>
+                                    <li>
+                                        <span class="_plus"></span>
+                                        <h6>innovative solution</h6>
+                                        <p>we leverage the the tatest technologies and innovative techniques to deliver efficient an sustainable construction solutions helping you achieve your project goal in a cost-effective and timely manner.</p>
+                                    </li>
+                                    <li>
+                                        <span class="_plus"></span>
+                                        <h6>skelled team</h6>
+                                        <p></p>
+                                    </li>
+                                    <li>
+                                        <span class="_plus"></span>
+                                        <h6>compliance and safty</h6>
+                                        <p>Aipisicing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Utder enim ad minim veniam, quis</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="span3">
+                        <h3>from the blog</h3>
+                        <ul class="list1">
+                            <li>
+                                <figure class="img-polaroid"><img alt="" src="img/page1_pic10.jpg"></figure>
+                                <div class="extra-wrap">
+                                    <p>Amet, consectetur adipisicing elit, sed doloredes eiusmod tempor.</p>
+                                    <a href="#"><time datetime="2013-01-01">October 30, 2013</time></a>
+                                </div>
+                            </li>
+                            <li>
+                                <figure class="img-polaroid"><img alt="" src="img/page1_pic11.jpg"></figure>
+                                <div class="extra-wrap">
+                                    <p>Amet, consectetur adipisicing elit, sed doloredes eiusmod tempor.</p>
+                                    <a href="#"><time datetime="2013-01-01">October 30, 2013</time></a>
+                                </div>
+                            </li>
+                            <li>
+                                <figure class="img-polaroid"><img alt="" src="img/page1_pic12.jpg"></figure>
+                                <div class="extra-wrap">
+                                    <p>Amet, consectetur adipisicing elit, sed doloredes eiusmod tempor.</p>
+                                    <a href="#"><time datetime="2013-01-01">October 30, 2013</time></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+     </section>
+</div>
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <section class="pull-right clearfix">
+                <article class="span2 foo-info">
+                    <p>9870 St Vincent Place, Glasgow, DC 45 Fr 45.</p>
+                </article>
+                <article class="span3 foo-info">
+                    <p><span>Telephone:</span>+1 800 603 6035<br><span>FAX:</span>+1 800 889 9898</p>
+                </article>
+                <article class="span3">
+                    <ul>
+                        <li><a href="#"><img alt="" src="img/follow_icon1.png"></a></li>
+                        <li><a href="#"><img alt="" src="img/follow_icon2.png"></a></li>
+                        <li><a href="#"><img alt="" src="img/follow_icon3.png"></a></li>
+                        <li><a href="#"><img alt="" src="img/follow_icon4.png"></a></li>
+                        <li><a href="#"><img alt="" src="img/follow_icon5.png"></a></li>
+                    </ul>
+                </article>
+            </section>
+            <article class="span4 pull-left">
+                    <p><img alt="" src="img/footer_logo.png">&copy; 2013 | <a href="index-5.html">Privacy Policy</a></p>
+                </article>
+        </div>
+        <!-- {%FOOTER_LINK} -->
+    </div>   
+</footer>
+<script src="js/bootstrap.js"></script>
+<script>
+    $('#search a').hover(function(){
+        $(this).stop().animate({'opacity':0.5},350, "easeOutSine");
+        }, function(){
+            $(this).stop().animate({'opacity':1},350, "easeOutSine"); 				 
+    })
+    $(window).load(function(){
+        var curAccord = 0;
+        var oldAccord = 0;
+
+        $('._accodList').find('p').slideUp(1);
+        $('._accodList').find('._plus').addClass('btnBg1');
+        $('._accodList').find('h6').addClass('color1');
+
+        setTimeout(function(){
+            $('._accodList > li').eq(0).find('._plus').removeClass('btnBg1');
+            $('._accodList > li').eq(0).find('._plus').addClass('btnBg2');
+            $('._accodList > li').eq(0).find('p').slideDown();
+            $('._accodList > li').eq(0).find('h6').addClass('color2');
+        },200)
+
+        $('._accodList').find('._plus, h6').click(
+            function(){
+                if(curAccord !== $(this).parent().index()){
+                    oldAccord = curAccord;
+                    curAccord = $(this).parent().index(); 
+                    
+                    $('._accodList > li').eq(curAccord).find('._plus').removeClass('btnBg1');
+                    $('._accodList > li').eq(curAccord).find('._plus').addClass('btnBg2');
+                    $('._accodList > li').eq(curAccord).find('h6').removeClass('color1');
+                    $('._accodList > li').eq(curAccord).find('h6').addClass('color2');
+                    $('._accodList > li').eq(curAccord).find('p').slideDown();
+                    
+                    $('._accodList > li').eq(oldAccord).find('._plus').removeClass('btnBg2');
+                    $('._accodList > li').eq(oldAccord).find('._plus').addClass('btnBg1');
+                    $('._accodList > li').eq(oldAccord).find('h6').removeClass('color2');
+                    $('._accodList > li').eq(oldAccord).find('h6').addClass('color1');
+                    $('._accodList > li').eq(oldAccord).find('p').slideUp();
+                }
+
+            }
+        )
+    }) 
+</script>
+<script>
+    $('#search a').hover(function(){
+        $(this).stop().animate({opacity:0.5},350, "easeOutSine");		 
+            }, function(){
+        $(this).stop().animate({opacity:1},350, "easeOutSine");						 
+    })
+</script>
+<script>
+     if($.browser.msie && $.browser.version == 8){ 
+            $('._accodList li').css({'margin-bottom':'0'});
+        }
+</script>
+</body>
+</html>
